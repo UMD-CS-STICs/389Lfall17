@@ -4,7 +4,7 @@
 
 ## Course Description
 
-This course provides a practical and project-oriented introduction to cloud computing with [Amazon Web Services](https://aws.amazon.com/about-aws/) (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda and Beanstalk. The course will culminate in a final resume-worthy project that will be built, deployed, and demoed to the class.
+This course provides a practical and project-oriented introduction to cloud computing with [Amazon Web Services](https://aws.amazon.com/about-aws/) (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda, and Beanstalk. The course will culminate in a final resume-worthy project that will be built, deployed, and demoed to the class.
 
 By the end of the semester, the above diagram will make sense to you and you will have all of the necessary skills to be able to replicate it.
 
