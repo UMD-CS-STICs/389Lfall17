@@ -18,8 +18,8 @@ By the end of the semester, the above diagram will make sense to you and you wil
 - **Location**: TBD
 - **Semester**: Fall 2017
 - **Textbook**: None
-- **Course Facilitator**: Colin King
-- **Faculty Advisor**: Neil Spring
+- **Course Facilitator**: [Colin King](https://www.linkedin.com/in/colinking1/)
+- **Faculty Advisor**: [Neil Spring](http://www.cs.umd.edu/~nspring/)
 - **Syllabus Last Updated**: May 3, 2017
 
 ## Topic List
