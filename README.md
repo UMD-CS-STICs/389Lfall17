@@ -14,7 +14,7 @@ By the end of the semester, the above diagram will make sense to you and you wil
 - **Prerequisites**: C- or better in *TBD*
 - **Credits**: 1
 - **Seats**: TBD
-- **Lecture Time**: Fridays, 2-2:50PM
+- **Lecture Time**: Fridays, 1-1:50PM
 - **Location**: TBD
 - **Semester**: Fall 2017
 - **Textbook**: None
