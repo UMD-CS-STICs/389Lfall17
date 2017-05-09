@@ -11,7 +11,7 @@ By the end of the semester, the above diagram will make sense to you and you wil
 ## Course Details
 
 - **Course**: CMSC389_
-- **Prerequisites**: C- or better in *TBD*
+- **Prerequisites**: C- or better in **CMSC330** and CMSC250
 - **Credits**: 1
 - **Seats**: TBD
 - **Lecture Time**: Fridays, 1-1:50PM
@@ -20,7 +20,7 @@ By the end of the semester, the above diagram will make sense to you and you wil
 - **Textbook**: None
 - **Course Facilitator**: [Colin King](https://www.linkedin.com/in/colinking1/)
 - **Faculty Advisor**: [Neil Spring](http://www.cs.umd.edu/~nspring/)
-- **Syllabus Last Updated**: May 3, 2017
+- **Syllabus Last Updated**: May 9, 2017
 
 ## Topic List
 
