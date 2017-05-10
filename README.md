@@ -1,4 +1,4 @@
-# CMSC389_: Practical Cloud Computing
+# CMSC389L: Practical Cloud Computing with AWS
 
 ![AWS Diagram](http://community.mis.temple.edu/mis4595sec002fall2015/files/2015/10/AWS.png)
 
@@ -10,17 +10,17 @@ By the end of the semester, the above diagram will make sense to you and you wil
 
 ## Course Details
 
-- **Course**: CMSC389_
+- **Course**: [CMSC389L](https://ntst.umd.edu/soc/search?courseId=CMSC389L&termId=201708&courseStartCompare=&courseStartMin=&courseStartAM=)
 - **Prerequisites**: C- or better in **CMSC330** and CMSC250
 - **Credits**: 1
-- **Seats**: TBD
+- **Seats**: 30
 - **Lecture Time**: Fridays, 1-1:50PM
-- **Location**: TBD
+- **Location**: CSI 3118
 - **Semester**: Fall 2017
 - **Textbook**: None
 - **Course Facilitator**: [Colin King](https://www.linkedin.com/in/colinking1/)
 - **Faculty Advisor**: [Neil Spring](http://www.cs.umd.edu/~nspring/)
-- **Syllabus Last Updated**: May 9, 2017
+- **Syllabus Last Updated**: May 10, 2017
 
 ## Topic List
 
