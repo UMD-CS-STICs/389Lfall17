@@ -1,3 +1,17 @@
 # Summary
 
 * [Introduction](README.md)
+* [September 1: Introduction](lecture-01/README.md)
+* [September 8: TBD](lecture-02/README.md)
+* [September 15: TBD](lecture-03/README.md)
+* [September 22: TBD](lecture-04/README.md)
+* [September 29: TBD](lecture-05/README.md)
+* [October 6: TBD](lecture-06/README.md)
+* [October 13: TBD](lecture-07/README.md)
+* [October 20: TBD](lecture-08/README.md)
+* [October 27: TBD](lecture-09/README.md)
+* [November 3: TBD](lecture-10/README.md)
+* [November 10: TBD](lecture-11/README.md)
+* [November 17: TBD](lecture-12/README.md)
+* [December 1: TBD](lecture-13/README.md)
+* [December 8: TBD](lecture-14/README.md)
