@@ -6,16 +6,15 @@
 - What happens if you underestimate? You'll have a "success disaster".
 - What happens if you overestimate? You're paying for capacity that you don't need.
 - Cloud computing abstracts away this process of setting up infrastructure -- servers, power, cooling, storage, routers, etc. This is known as Infrastructure as a Service (IaaS).
+- Many providers also make available other services beyond IaaS, like software-as-a-service (SaaS) such as Polly (text -> speech) or platform-as-as-service (PaaS) such as Elastic Beanstalk (like Heroku). 
+- If they are condusing, think build IaaS, buy SaaS, and deploy onto PaaS.
+- Providers benefit from economies of scale of these services, and those benefits are usually passed on to the consumer.
+- Providers also usually make it possible to deploy globally.
 - Significantly reduces the initial capital required to get started on an idea. This has been key for startup innovation, since it enables entrepreneurs to conduct experiments where they only pay for the capacity that they use, rather than having to predict usage without any data. If the experiment fails, the entrepreneur can move on.
 	- Uber, Airbnb are all examples of startups that started on AWS and were able to scale incredibly fast thanks to cloud computing.
 	- Segment, pivoted a dozen times before settling on their current idea.
 - The main public cloud computing providers are AWS, Microsoft Azure and Google Cloud. Each have different specialties.
-
-What is it?
-Why is cloud computing important? (Benckmark?)
-Where is cloud computing heading?
-What is scalability and how does CC enable it?
-Failure happens, get used to it -- resiliency, durability, ...
+- When working in a cloud environment, you are working with commodity hardware at scale. Therefore, the most important thing to keep in mind is the well-known saying from Werner Vogel, who is the CTO of Amazon, that "Everything fails all the time".
 
 ### What is AWS?
 
@@ -25,20 +24,8 @@ Failure happens, get used to it -- resiliency, durability, ...
 - The first service, SQS, was made available in 2004.
 - Grew rapidly, by 2010 all of Amazon.com had moved over.
 
-Give the high-level overview.
-
 ### Why should I learn AWS?
 
 - The fastest growing public cloud computing platform on the planet, about 90% of the compute capacity.
 - A large majority of tech companies are on a public cloud, with the notable exceptions of extremely large companies (Facebook, f.e.) which run their own hardware.
-
-Who uses it?
-How valuable is it?
-What kind of work can I do with this knowledge?
-What are some interesting projects built thanks to AWS?
-Class is not often taught -- gives students an advantage
-
-### AWS 101
-
-Availabillity Zones
-Usage-based pricing
+- A background in AWS, or other cloud providers, for that matter, is not usually taught at the university level. Instead it is learned on the job, or through side projects. Therefore, by taking this class and working on the projects, you'll develop a skillset that will set you apart from the competition and open up new opportunities.
