@@ -7,7 +7,7 @@
 - What happens if you overestimate? You're paying for capacity that you don't need.
 - Cloud computing abstracts away this process of setting up infrastructure -- servers, power, cooling, storage, routers, etc. This is known as Infrastructure as a Service (IaaS).
 - Many providers also make available other services beyond IaaS, like software-as-a-service (SaaS) such as Polly (text -> speech) or platform-as-as-service (PaaS) such as Elastic Beanstalk (like Heroku). 
-- If they are condusing, think build IaaS, buy SaaS, and deploy onto PaaS.
+- If they are confusing, think build IaaS, buy SaaS, and deploy onto PaaS.
 - Providers benefit from economies of scale of these services, and those benefits are usually passed on to the consumer.
 - Providers also usually make it possible to deploy globally.
 - Significantly reduces the initial capital required to get started on an idea. This has been key for startup innovation, since it enables entrepreneurs to conduct experiments where they only pay for the capacity that they use, rather than having to predict usage without any data. If the experiment fails, the entrepreneur can move on.
@@ -26,6 +26,6 @@
 
 ### Why should I learn AWS?
 
-- The fastest growing public cloud computing platform on the planet, about 90% of the compute capacity.
+- The fastest growing public cloud computing platform on the planet.
 - A large majority of tech companies are on a public cloud, with the notable exceptions of extremely large companies (Facebook, f.e.) which run their own hardware.
 - A background in AWS, or other cloud providers, for that matter, is not usually taught at the university level. Instead it is learned on the job, or through side projects. Therefore, by taking this class and working on the projects, you'll develop a skillset that will set you apart from the competition and open up new opportunities.

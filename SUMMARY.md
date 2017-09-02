@@ -10,6 +10,7 @@
 * [AWS 101](lectures/lecture-01/aws.md)
 * [Codelab 1](lectures/lecture-01/codelab.md)
 * [Feedback](lectures/lecture-01/feedback.md)
+* [Slides](lectures/lecture-01/slides.md)
 
 ### September 8th
 

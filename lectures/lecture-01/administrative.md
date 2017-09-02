@@ -26,12 +26,7 @@ Dr. Neil Spring will the faculty advisor for this class. That means he is respon
 
 ### What is CMSC389L?
 
-Let's take a look through the [syllabus](../../README.md). Some highlights:
-
-- Dive into the highlights of AWS.
-- The next codelab will walk through the process of getting set-up on AWS, so don't worry about that.
-- Success disasters, and why scalability is important.
-- Codelabs, Projects, Final Project, Midterm, Office hours
+Let's take a look through the [syllabus](../../README.md). Note that the next codelab will walk through the process of getting set-up on AWS, so don't worry about that.
 
 ### Where can I find information?
 
