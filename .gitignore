@@ -1,0 +1,14 @@
+# Gitbook
+*.epub
+*.mobi
+*.pdf
+_book/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# Spell Check
+docs-dictionary*
