@@ -22,7 +22,7 @@ For almost all of these STICs, they are taught by first-time teachers (myself in
 
 ### Who is the faculty advisor?
 
-Dr. Neil Spring will the faculty advisor for this class. That means he is responsible for final grading decisions and resolving conflict, along with providing oversight on this course. If you have any questions that you aren't comfortable raising with me, then you are more than welcome to reach out to [Dr. Spring](mailto:nspring@cs.umd.edu). His information is available on the course site.
+Dr. Neil Spring will the faculty advisor for this class. That means he is responsible for final grading decisions and resolving conflict, along with providing oversight on this course. If you have any questions that you aren't comfortable raising with me, then you are more than welcome to reach out to Dr. Spring at [nspring@cs.umd.edu](mailto:nspring@cs.umd.edu). His information is available on the course site.
 
 ### What is CMSC389L?
 

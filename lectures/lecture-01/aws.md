@@ -2,7 +2,7 @@
 
 ### What is Cloud Computing?
 
-- Let's consider the time before cloud computing. Say you want to start the next AirBnB. You want to host a website to attract interest, so how do you do that? You would have to set up a server farm in your garage. You'll need to estimate your traffic, understand the characteristics of your code (memory, CPU, etc.) and order servers, routers, cabling, storage, etc. and usually wait a few weeks and shell out a large inital capital investment. Then you have to set it up and test it, load your software, configure the servers, patch security vulnerabilities, etc.
+- Let's consider the time before cloud computing. Say you want to start the next AirBnB. You want to host a website to attract interest, so how do you do that? You would have to set up a server farm in your garage. You'll need to estimate your traffic, understand the characteristics of your code (memory, CPU, etc.) and order servers, routers, cabling, storage, etc. You'll usually wait a few weeks and shell out a large capital investment. Then, you have to set it up and test it, load your software, configure the servers, patch security vulnerabilities, etc.
 - What happens if you underestimate? You'll have a "success disaster".
 - What happens if you overestimate? You're paying for capacity that you don't need.
 - Cloud computing abstracts away this process of setting up infrastructure -- servers, power, cooling, storage, routers, etc. This is known as Infrastructure as a Service (IaaS).
