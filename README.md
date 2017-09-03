@@ -1,6 +1,6 @@
 # CMSC389L: Practical Cloud Computing with AWS
 
-![AWS Diagram](.media/aws_diagram.png)
+![AWS Diagram](media/aws_diagram.png)
 
 ## Course Description
 
