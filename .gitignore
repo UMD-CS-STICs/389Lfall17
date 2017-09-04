@@ -12,3 +12,9 @@ node_modules/
 
 # Spell Check
 docs-dictionary*
+
+# Vagrant
+.vagrant
+
+# Python
+__pycache__
