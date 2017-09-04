@@ -1,5 +1,15 @@
 # Codelab 1: Python 101
 
+### Changelog
+
+###### September 3rd, 2017
+- Added [grading section](#grading).
+- Emphasized [`vagrant destroy` section](#destroying-vagrant-boxes).
+- Silenced the `curl` command in `Vagrantfile`.
+- Added [submission instructions](#submission).
+
+- Released Codelab 1 🎉.
+
 ### Due Date
 
 This codelab is due on *Sunday, September 10th at 11:59:59PM*. Future codelabs will be due on the Thursday before class.
@@ -43,7 +53,9 @@ If you've gotten this far, then everything works. Go ahead and shut down this vi
 
 	$ vagrant halt
 
-Even though your VM has been halted, it is still stored on your computer. If you would like to completely remove the VM, then run this command:
+###### Destroying Vagrant Boxes
+
+Even though your VM has been halted, it is still stored on your computer. Since you will be creating a new Vagrant box for each codelab, you will want to make sure to completely destroy each VM. To do so, run the following command:
 
 	$ vagrant destroy
 
@@ -120,3 +132,15 @@ You'll see a message like this when you've passed all of them:
 	Ran 8 tests in 0.002s
 
 	OK
+
+**When you are finished, make sure to run `vagrant destroy`.** Note that this will not remove any source code from the shared `code` folder.
+
+#### Grading
+
+For this codelab, you will get full credit if you complete at least the required public tests (so all of them, except `test_large_numbers`).
+
+If some codepath is not tested, such as the behavior of `foobar_flip` when a value is provided that is not "foo" or "bar", then you are free to handle it however you would like. Pick something reasonable, like raising a `ValueError`.
+
+#### Submission
+
+To submit this codelab, zip the `codelab` folder under `lecture-01` and upload it to the [submit server](https://submit.cs.umd.edu/fall2017/view/course.jsp?coursePK=22).
