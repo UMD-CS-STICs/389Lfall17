@@ -1,0 +1,81 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine and only allow access
+  # via 127.0.0.1 to disable public access
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  config.vm.synced_folder "code", "/home/vagrant/code"
+
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  # Example for VirtualBox:
+  #
+  # config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024"
+  # end
+  #
+  # View the documentation for the provider you are using for more
+  # information on available options.
+
+  # Install git and zsh prerequisites 
+  config.vm.provision :shell, inline: "apt-get update"
+  config.vm.provision :shell, inline: "apt-get -y install git zsh make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev"
+
+  # Clone Oh My Zsh from the git repo
+  config.vm.provision :shell, privileged: false,
+    inline: "rm -rf ~/.oh-my-zsh && git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh"
+
+  config.vm.provision :shell, privileged: false, inline: <<-SHELL
+    cat > ~/.zshrc <<'EOL'
+export ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="agnoster"
+COMPLETION_WAITING_DOTS="true"
+plugins=(git python zsh-syntax-highlighting)
+source $ZSH/oh-my-zsh.sh
+
+PROMPT_COMMAND='prompt'
+
+export PROJECT_HOME=$HOME
+EOL
+  SHELL
+
+  # Change the vagrant user's shell to use zsh
+  config.vm.provision :shell, inline: "chsh -s /bin/zsh vagrant"
+
+  config.vm.provision :shell, privileged: false, inline: <<-SHELL
+    # Install pyenv
+    # see: https://github.com/pyenv/pyenv
+    curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+
+    cat >> ~/.zshrc <<'EOL'
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+EOL
+  SHELL
+
+  config.vm.provision :shell, privileged: false, inline: <<-SHELL
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    # Use pyenv to install Python 3.6.2
+    pyenv --version
+    pyenv install 3.6.2
+    pyenv global 3.6.2
+
+    pip install flake8 autopep8
+  SHELL
+end
