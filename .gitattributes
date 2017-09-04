@@ -1,0 +1,7 @@
+# Windows and Unix systems use different line ending characters
+# \r\n (or CRLF) and \n (LF), respectively
+
+# By default, use LF endings
+*.py text eol=lf
+*.md text eol=lf
+Vagrantfile text eol=lf
