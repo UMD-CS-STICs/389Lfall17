@@ -60,7 +60,7 @@ EOL
   config.vm.provision :shell, privileged: false, inline: <<-SHELL
     # Install pyenv
     # see: https://github.com/pyenv/pyenv
-    curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+    curl -sL https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
 
     cat >> ~/.zshrc <<'EOL'
 export PATH="$HOME/.pyenv/bin:$PATH"
