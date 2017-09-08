@@ -16,6 +16,8 @@
 
 * [Object Storage: S3](lectures/lecture-02/README.md)
 * [Codelab 2](lectures/lecture-02/codelab.md)
+* [Feedback](lectures/lecture-02/feedback.md)
+* [Slides](lectures/lecture-02/slides.md)
 
 ### September 15th
 
