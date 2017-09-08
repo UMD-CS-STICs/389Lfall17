@@ -91,7 +91,7 @@ Students may also receive access to further resources via [AWS Educate](https://
 | ------- | -------------------- | ----------- |
 | 20%     | Programming Projects | Individual projects that will involve working with AWS services. |
 | 20%     | Codelabs             | Graded for completion |
-| 10%     | In-class worksheets  | Graded for completion |
+| 10%     | In-class worksheets  | Graded for completion (1 can be dropped) |
 | 20%     | Midterm              | The examination will focus on theoretical concepts. |
 | 30%     | Final Project + Demo | A free-form final project with a video demo. |
 
@@ -101,7 +101,7 @@ Students may also receive access to further resources via [AWS Educate](https://
 
 | Instructor | Hours               | Location |
 | ---------- | ------------------- | -------- |
-| Colin King | Tuesdays 4-5PM, Fridays 2-3PM, or [by appt](mailto:colink@umd.edu).   | TBD      |
+| Colin King | Tuesdays 4-5PM, Fridays 2-3PM, or [by appt](mailto:colink@umd.edu).   | AVW 4101      | 
 
 ### Project Submission
 
@@ -118,6 +118,8 @@ Grades will be maintained on the CS department [grades server](https://grades.cs
 You are responsible for all material discussed in lecture and posted on the class repository, including announcements, deadlines, policies, etc.
 
 Any request for reconsideration of any grading on coursework must be submitted within **one week** of when it is returned. No requests will be considered afterwards.
+
+Up to one in-class worksheet may be dropped, for any reason (hackathon, interview, etc.). In particular, if you need to miss multiple classes for interviews, specifically, then come talk to the course instructor.
 
 *Completing the projects is an essential part of the course. Therefore, the course staff reserves the right to fail any student who does not make a good-faith attempt on all course projects.* The requirements for a good-faith attempt will be released with each project.
 
