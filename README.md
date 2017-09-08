@@ -90,8 +90,8 @@ Students may also receive access to further resources via [AWS Educate](https://
 | % Total | Assignment           | Description |
 | ------- | -------------------- | ----------- |
 | 20%     | Programming Projects | Individual projects that will involve working with AWS services. |
-| 15%     | Codelabs             | Graded for completion |
-| 15%     | In-class worksheets  | Graded for completion |
+| 20%     | Codelabs             | Graded for completion |
+| 10%     | In-class worksheets  | Graded for completion |
 | 20%     | Midterm              | The examination will focus on theoretical concepts. |
 | 30%     | Final Project + Demo | A free-form final project with a video demo. |
 
