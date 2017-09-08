@@ -119,7 +119,7 @@ You are responsible for all material discussed in lecture and posted on the clas
 
 Any request for reconsideration of any grading on coursework must be submitted within **one week** of when it is returned. No requests will be considered afterwards.
 
-Up to one in-class worksheet may be dropped, for any reason (hackathon, interview, etc.). In particular, if you need to miss multiple classes for interviews, specifically, then come talk to the course instructor.
+Up to one in-class worksheet may be dropped, for any reason. If you can document that you were at a hackathon or on-site interview, or had to miss class for any university-approved reason, then notify the course instructor in advance and you will be allowed to turn in the worksheet during the following class.
 
 *Completing the projects is an essential part of the course. Therefore, the course staff reserves the right to fail any student who does not make a good-faith attempt on all course projects.* The requirements for a good-faith attempt will be released with each project.
 
