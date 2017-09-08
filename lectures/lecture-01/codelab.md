@@ -2,6 +2,9 @@
 
 ### Changelog
 
+###### September 7th, 2017
+- Updated future codelab due dates
+
 ###### September 3rd, 2017
 - Added [grading section](#grading).
 - Emphasized [`vagrant destroy` section](#destroying-vagrant-boxes).
@@ -12,7 +15,7 @@
 
 ### Due Date
 
-This codelab is due on *Sunday, September 10th at 11:59:59PM*. Future codelabs will be due on the Thursday before class.
+This codelab is due on *Sunday, September 10th at 11:59:59PM*. Future codelabs will be due at midnight a week after release (usually the following Friday).
 
 ### Goal
 
