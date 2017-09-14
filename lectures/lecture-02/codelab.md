@@ -2,13 +2,13 @@
 
 ### Changelog
 
-###### September 13th, 2017
+###### September 14th, 2017
 
 - Released Codelab 2 🎉.
  
 ### Due Date
 
-This codelab is due on *Wednesday, September 20th at 11:59:59PM*.
+This codelab is due on *Friday, September 22th at 11:59:59PM*.
 
 Going forward, you all will always be given a full week to complete each codelab, which will guarantee that you will be able to bring any questions to either the next class or one of the two office hours sessions.
 
