@@ -59,7 +59,7 @@ Learn more about these services in [plain english](https://www.expeditedssl.com/
 
 ## Projects
 
-- Project 1: TBD (S3, CloudFront)
+- Project 1: TBD (S3, CloudFront, EC2)
 - Project 2: TBD (ELB, EC2, SQS)
 - Final Project
 
