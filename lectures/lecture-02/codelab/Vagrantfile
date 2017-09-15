@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-aws_credentials = File.read('../../../../aws.credentials')
+aws_credentials = File.read('../../../aws.credentials')
 load_aws = <<SCRIPT
 aws_credentials='#{aws_credentials}'
 mkdir -p ~/.aws
