@@ -2,6 +2,11 @@
 
 ### Changelog
 
+###### September 16th, 2017
+
+- Added note about `git pull` / new `Vagrantfile`
+- Updated CloudTrail log submission section.
+
 ###### September 14th, 2017
 
 - Released Codelab 2 🎉.
@@ -17,6 +22,12 @@ Going forward, you all will always be given a full week to complete each codelab
 In this codelab, you'll get to play around with S3.
 - You'll get up and running on AWS with a Free Tier account and AWS Educate.
 - You'll test out S3 from the AWS CLI
+
+### Setting Up
+
+Before starting this codelab, run `git pull` in the `389Lfall17` directory to update your local copy of the class repository.
+
+This will pull in an updated `Vagrantfile` which you will use to launch the Vagrant box for this codelab.
 
 ### Getting Started with AWS
 
@@ -483,9 +494,19 @@ Submit a screenshot of the front page of the STICs site hosted on your S3. Make 
 
 You will submit a zipped directory containing your script, `upload.py`, plus an updated `requirements.txt` if you installed any packages. You will also include the screenshot of the STICs homepage and your audit log.
 
-The audit log is in the form of a JSON file in a `.gz` zip file in the bucket that you created. To access the log, first get the key by listing the objects in the bucket, then download it with `s3api get-object`, and finally unzip it with `gunzip out.json.gz`.
+Audit logs are stored in as JSON files in a `.gz` zip archive in the bucket that you created. Within this bucket, these logs are organized in a directory hierarchy by date, region, and a few other factors (see [this documentation page](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-find-log-files.html)). You'll need to download all of your CloudTrail logs from this bucket for the us-east-1 region. You can use the `aws s3` command to sync this directory to your local filesystem. You'll need to configure
 
-You can inspect the audit log with `jq` (a JSON pretty printer). Run `cat out.json | jq . | less`.
+
+```
+$ # Command Format:
+$ aws s3 sync s3://<cloudtrail bucket>/AWSLogs/<account number>/CloudTrail/us-east-1/<year>/<month> <local directory>
+$ # Example:
+$ aws s3 sync s3://cmsc389l-colink-codelab-02-trail/AWSLogs/800593953112/CloudTrail/us-east-1/2017/09 logs
+```
+
+In your submission, include the logs directory that you just downloaded.
+
+Now that you have these log files locally, you can inspect their contents. To access a log, you'll need to unzip it with `gunzip <log file name>.json.gz`. Then, you can inspect the audit log with `jq` (a JSON pretty printer). Run `cat <log file name>.json | jq . | less`.
 
 Submit this assignment to `codelab2` on the submit server. Upload a zipped directory containing the following files:
 
@@ -493,6 +514,6 @@ Submit this assignment to `codelab2` on the submit server. Upload a zipped direc
 <directory id>.zip
 	upload.py
 	requirements.txt
-	audit.log
+	logs/...
 	stics.png
 ```
