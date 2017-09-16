@@ -4,6 +4,8 @@
 
 ###### September 16th, 2017
 
+- Added note about boto3 requirement for assignment.
+
 - Added note about `git pull` / new `Vagrantfile`
 - Updated CloudTrail log submission section.
 
@@ -375,6 +377,8 @@ I recommend that you play around with this tool a bit more to see how it compare
 ### Assignment
 
 Your assignment for this codelab is to re-create part of the `s3 sync` command using boto3 in Python. You'll be able to use this script to quickly copy files and directories into S3.
+
+**Note**: You must use boto3, not the `s3 sync` command. You will not get full credit if you just write a wrapper on top of the `sync` command.
 
 As an example of how this script works, say you had a directory like so:
 
