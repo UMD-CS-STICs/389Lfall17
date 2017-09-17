@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
   # information on available options.
 
   # Install git and zsh prerequisites 
-  # config.vm.provision :shell, inline: "apt-get update"
+  config.vm.provision :shell, inline: "apt-get update"
   config.vm.provision :shell, inline: "apt-get -y install git zsh make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev tree jq"
 
   # Clone Oh My Zsh from the git repo.
