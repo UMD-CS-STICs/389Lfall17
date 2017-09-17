@@ -4,6 +4,8 @@
 
 ###### September 16th, 2017
 
+- Fixed STICs upload method, based on Content-Type issue.
+
 - Added note about boto3 requirement for assignment.
 
 - Added note about `git pull` / new `Vagrantfile`
@@ -464,9 +466,11 @@ Feel free to install any packages you would like to use. Just make sure to add t
 
 #### Host a Static Website
 
-As mentioned in class, you can use S3 to host static content, like static websites.
+As mentioned in class, you can use S3 to host static content, like static websites. Let's do that for the STICs website!
 
-Conveniently, you've now got a tool for uploading folders into S3! Let's do that for the STICs website.
+Now that you've finished the assignment, you have a tool that you could use to upload static content for a website, however the tool does not set the Content-Type of each file when they are uploaded (they default to a byte stream type). If you tried to open an HTML file in your browser that was hosted on S3 with this Content-Type, then your browser would just download the file instead of serving it (it doesn't use the file ending to determine the type of file, as you might expect, it instead uses the Content-Type header in the response).
+
+Therefore you have two options: 1) update your tool to detect and set the Content-Type header (use a library like [`python-magic`](https://github.com/ahupp/python-magic)). Otherwise, you can use the `aws s3 sync` command.
 
 You will want to clone the source code from it's GitHub repository here: https://github.com/UMD-CS-STICs/UMD-CS-STICs.github.io
 
@@ -480,11 +484,19 @@ Then, create a new bucket specifically for this site, such as `cmsc389l-<directo
 $ aws s3 website s3://cmsc389l-colink-website --index-document index.html
 ```
 
-You will need to copy the source code into the root directory of this new bucket using your tool:
+##### Option 1: upload.py
+
+Assuming that your tool will properly set the Content-Type header, then you can copy the source code into the root directory of this new bucket using your tool:
 
 ```
 $ python upload.py UMD-CS-STICs.github.io --bucket cmsc389l-colink-website --acl public-read
 ```
+
+##### Option 2: s3 sync
+
+If not, you can use the `s3 sync` tool instead. Make sure to sync the contents of the STICs site into the root of the bucket.
+
+##### View the site!
 
 To view the site, browse to the S3 URL of `index.html` and you will see the full STICs site!
 
