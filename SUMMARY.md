@@ -21,14 +21,16 @@
 
 ### September 15th
 
-* [Content Delivery Networks: CloudFront](lectures/lecture-03/README.md)
+<!-- * [Content Delivery Networks: CloudFront](lectures/lecture-03/README.md) -->
 * [Feedback](lectures/lecture-03/feedback.md)
 * [Slides](lectures/lecture-03/slides.md)
 
 ### September 22nd
 
-* [Compute 1: EC2](lectures/lecture-04/README.md)
+<!-- * [Compute 1: EC2](lectures/lecture-04/README.md) -->
 * [Codelab 3](lectures/lecture-04/codelab.md)
+* [Feedback](lectures/lecture-04/feedback.md)
+* [Slides](lectures/lecture-04/slides.md)
 
 ### September 29th
 
