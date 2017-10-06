@@ -25,7 +25,7 @@ Launch an EC2 instance via the AWS GUI:
 
 For the security group, create a new security group and open SSH, HTTP and HTTPS to Anywhere. Go ahead and save this security group with a memorable name, so that you can use it again.
 
-![Security Group](../../../media/codelabs/codelab-03/security.png)
+![Security Group](../../../media/codelabs/codelab-03/security-group.png)
 
 For the key pair, create a new key pair. Choose a memorable name. Download the key pair, and do not lose it! Otherwise, you will have no way to access your instances (you'll have to kill + re-launch them).
 
@@ -259,7 +259,7 @@ If you run a Python server in the `website/` directory, and visit the IP address
 
 ### Wrapping Up
 
-Make sure to terminate your instances, or else they will eat into your free credit ("Actions" > "Instance State" > "Terminate").
+Make sure to terminate your EC2 instances when you are no longer using them, or else they will eat into your free credit ("Actions" > "Instance State" > "Terminate").
 
 ### Submission
 
