@@ -43,6 +43,7 @@
 * [Message Queues: SQS](lectures/lecture-06/README.md)
 * [Codelab 4](vagrant/codelabs/codelab-04/README.md)
 * [Feedback](lectures/lecture-06/feedback.md)
+* [Slides](lectures/lecture-06/slides.md)
 
 ### October 13th
 
