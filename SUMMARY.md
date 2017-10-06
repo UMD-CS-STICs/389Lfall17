@@ -3,6 +3,7 @@
 ### Course Information
 
 * [Syllabus](README.md)
+* [Vagrant Box](vagrant.md)
 
 ### September 1st
 
@@ -28,29 +29,28 @@
 ### September 22nd
 
 <!-- * [Compute 1: EC2](lectures/lecture-04/README.md) -->
-* [Codelab 3](lectures/lecture-04/codelab.md)
 * [Feedback](lectures/lecture-04/feedback.md)
 * [Slides](lectures/lecture-04/slides.md)
 
 ### September 29th
 
 * [Compute 2: EC2](lectures/lecture-05/README.md)
-* [Codelab 4](lectures/lecture-05/codelab.md)
+* [Codelab 3](lectures/lecture-05/codelab/README.md)
 
 ### October 6th
 
 * [Message Queues: SQS](lectures/lecture-06/README.md)
-* [Codelab 5](lectures/lecture-06/codelab.md)
+* [Codelab 4](vagrant/codelabs/codelab-03/README.md)
 
 ### October 13th
 
 * [Load Balancers: ELB + ALB](lectures/lecture-07/README.md)
-* [Codelab 6](lectures/lecture-07/codelab.md)
+* [Codelab 5](lectures/lecture-07/codelab.md)
 
 ### October 20th
 
 * [PaaS: Elastic Beanstalk](lectures/lecture-08/README.md)
-* [Codelab 7](lectures/lecture-08/codelab.md)
+* [Codelab 6](lectures/lecture-08/codelab.md)
 
 ### October 27th
 

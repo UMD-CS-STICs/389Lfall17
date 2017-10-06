@@ -1,3 +1,3 @@
 # Lecture 5: Compute Part 2
 
-Content will be released after class on September 29th. Look out for an announcement on [Piazza](https://piazza.com/class/j6r4ozi6uu75px). 📣
+Today, we continued our EC2 walkthrough on the command line. See codelab 3 for a walkthrough of what we did in class.

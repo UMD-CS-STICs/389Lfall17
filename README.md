@@ -39,19 +39,19 @@ By the end of the semester, the above diagram will make sense to you and you wil
 | ---------- | ---------------------------------------- | ---------- | ------------- |
 | 9/1/2017   |	Introduction and AWS 101				| Codelab 1  | |
 | 9/8/2017   |	Object Storage: S3 						| Codelab 2  | |
-| 9/15/2017  |	Content Delivery Networks: CloudFront 	|            |  |
-| 9/22/2017  |  Compute 1: EC2							| Codelab 3  | Project 1 Available |
-| 9/29/2017  |	Compute 2: EC2							| Codelab 4  | |
-| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| Codelab 5  |  |
-| 10/13/2017 |	Load Balancers: ELB + ALB 				| Codelab 6  | Project 1 Due & Project 2 Available |
-| 10/20/2017 |	PaaS: Elastic Beanstalk					| Codelab 7  | |
-| 10/27/2017 |	Functions: Lambda	 					| Codelab 8  | |
-| 11/3/2017  |	*Midterm*	 							|            | Project 2 Due |
-| 11/10/2017 |	APIs: API Gateway	 					| Codelab 9 | Final Project Available |
-| 11/17/2017 |	Databases: DynamoDB 					| Codelab 10 | |
+| 9/15/2017  |	Content Delivery Networks: CloudFront 	|            | |
+| 9/22/2017  |  Compute 1: EC2							|            | |
+| 9/29/2017  |	Compute 2: EC2							| Codelab 3  | |
+| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| Codelab 4  | Project 1 Available |
+| 10/13/2017 |	Load Balancers: ELB + ALB 				| Codelab 5  | |
+| 10/20/2017 |	PaaS: Elastic Beanstalk					| Codelab 6  | |
+| 10/27/2017 |	Functions: Lambda	 					| Codelab 7  | Project 1 Due & Project 2 Available |
+| 11/3/2017  |	*Midterm*	 							|            |  |
+| 11/10/2017 |	APIs: API Gateway	 					| Codelab 8 |   |
+| 11/17/2017 |	Databases: DynamoDB 					| Codelab 9 | Project 2 Due & Final Project Available |
 | 11/24/2017 |	*Thanksgiving Break (Campus Closed)* 	| 			 | |
-| 12/1/2017  |	Containers: ECS					 		| Codelab 11 | |
-| 12/8/2017  |  Cloud Security				   			| Codelab 12 | |
+| 12/1/2017  |	Containers: ECS					 		| Codelab 10 | |
+| 12/8/2017  |  Cloud Security				   			| Codelab 11 | |
 | 12/13/2017 |	*No Class*  						    |            | Final Project Due |
 | 12/14/2017 |	*No Class*  						    |            | Final Project Video Demos Due |
 
@@ -60,7 +60,7 @@ Learn more about these services in [plain english](https://www.expeditedssl.com/
 ## Projects
 
 - Project 1: TBD (S3, CloudFront, EC2)
-- Project 2: TBD (ELB, EC2, SQS)
+- Project 2: TBD (LB, EC2, SQS)
 - Final Project
 
 ## Final Project
