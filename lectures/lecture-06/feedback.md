@@ -1,4 +1,4 @@
-# Feedback: Week 5
+# Feedback: Week 6
 
 [![Feedback Survey](../../media/feedback/feedback-extended-no-cl.png)](http://ter.ps/389L6)
 
