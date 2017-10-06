@@ -36,11 +36,13 @@
 
 * [Compute 2: EC2](lectures/lecture-05/README.md)
 * [Codelab 3](lectures/lecture-05/codelab/README.md)
+* [Feedback](lectures/lecture-05/feedback.md)
 
 ### October 6th
 
 * [Message Queues: SQS](lectures/lecture-06/README.md)
-* [Codelab 4](vagrant/codelabs/codelab-03/README.md)
+* [Codelab 4](vagrant/codelabs/codelab-04/README.md)
+* [Feedback](lectures/lecture-06/feedback.md)
 
 ### October 13th
 
