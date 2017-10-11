@@ -48,42 +48,40 @@
 ### October 13th
 
 * [Load Balancers: ELB + ALB](lectures/lecture-07/README.md)
-* [Codelab 5](lectures/lecture-07/codelab.md)
+<!-- * [Codelab 5](lectures/lecture-07/codelab.md) -->
 
 ### October 20th
 
 * [PaaS: Elastic Beanstalk](lectures/lecture-08/README.md)
-* [Codelab 6](lectures/lecture-08/codelab.md)
+<!-- * [Codelab 6](lectures/lecture-08/codelab.md) -->
 
 ### October 27th
 
 * [Functions: Lambda](lectures/lecture-09/README.md)
-* [Codelab 8](lectures/lecture-09/codelab.md)
+<!-- * [Codelab 8](lectures/lecture-09/codelab.md) -->
 
 ### November 10th
 
 * [APIs: API Gateway](lectures/lecture-10/README.md)
-* [Codelab 9](lectures/lecture-10/codelab.md)
+<!-- * [Codelab 9](lectures/lecture-10/codelab.md) -->
 
 ### November 17th
 
 * [Databases: DynamoDB](lectures/lecture-11/README.md)
-* [Codelab 10](lectures/lecture-11/codelab.md)
+<!-- * [Codelab 10](lectures/lecture-11/codelab.md) -->
 
 ### December 1th
 
 * [Containers: ECS](lectures/lecture-12/README.md)
-* [Codelab 11](lectures/lecture-12/codelab.md)
+<!-- * [Codelab 11](lectures/lecture-12/codelab.md) -->
 
 ### December 8th
 
 * [Cloud Security](lectures/lecture-13/README.md)
-* [Codelab 12](lectures/lecture-13/codelab.md)
+<!-- * [Codelab 12](lectures/lecture-13/codelab.md) -->
 
-### Projects
+### Final Project
 
-* [Project 1: TBD](projects/project-01/README.md)
-* [Project 2: TBD](projects/project-02/README.md)
 * [Final Project](projects/final-project/README.md)
 
 ### Resources
