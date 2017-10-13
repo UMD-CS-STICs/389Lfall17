@@ -48,6 +48,8 @@
 ### October 13th
 
 * [Load Balancers: ELB + ALB](lectures/lecture-07/README.md)
+* [Feedback](lectures/lecture-07/feedback.md)
+* [Slides](lectures/lecture-07/slides.md)
 <!-- * [Codelab 5](lectures/lecture-07/codelab.md) -->
 
 ### October 20th
