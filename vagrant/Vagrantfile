@@ -6,7 +6,7 @@ aws_credentials = File.read(aws_credentials_path)
 load_aws = <<SCRIPT
 aws_credentials='#{aws_credentials}'
 mkdir -p ~/.aws
-echo "$aws_credentials" > /home/vagrant/.aws/credentials
+echo "$aws_credentials" > /home/ubuntu/.aws/credentials
 SCRIPT
 
 Vagrant.configure("2") do |config|
@@ -22,9 +22,9 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "codelabs", "/home/vagrant/codelabs"
-  config.vm.synced_folder "keys", "/home/vagrant/keys"
-  config.vm.synced_folder "final-project", "/home/vagrant/final-project"
+  config.vm.synced_folder "codelabs", "/home/ubuntu/codelabs"
+  config.vm.synced_folder "keys", "/home/ubuntu/keys"
+  config.vm.synced_folder "final-project", "/home/ubuntu/final-project"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -65,8 +65,8 @@ export PROJECT_HOME=$HOME
 EOL
   SHELL
 
-  # Change the vagrant user's shell to use zsh.
-  config.vm.provision :shell, inline: "chsh -s /bin/zsh vagrant"
+  # Change the ubuntu user's shell to use zsh.
+  config.vm.provision :shell, inline: "chsh -s /bin/zsh ubuntu"
 
   # Install zsh-syntax-highlighting
   config.vm.provision :shell, privileged: false, inline: <<-SHELL
@@ -112,7 +112,7 @@ EOL
   # Enable AWS CLI auto-completion.
   config.vm.provision "aws_completion", type: "shell", inline: <<-SHELL
     wget --quiet https://raw.githubusercontent.com/aws/aws-cli/develop/bin/aws_zsh_completer.sh -P /usr/local/bin
-    cat >> /home/vagrant/.zshrc <<EOL
+    cat >> /home/ubuntu/.zshrc <<EOL
 source /usr/local/bin/aws_zsh_completer.sh
 EOL
 SHELL
