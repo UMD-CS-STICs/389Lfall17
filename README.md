@@ -37,35 +37,29 @@ By the end of the semester, the above diagram will make sense to you and you wil
 
 | Week       | Topic                                    | Codelab    | Project       |
 | ---------- | ---------------------------------------- | ---------- | ------------- |
-| 9/1/2017   |	Introduction and AWS 101				| Codelab 1  | |
-| 9/8/2017   |	Object Storage: S3 						| Codelab 2  | |
+| 9/1/2017   |	Introduction and AWS 101				| [Codelab 1](lectures/lecture-01/codelab.md)  | |
+| 9/8/2017   |	Object Storage: S3 						| [Codelab 2](lectures/lecture-02/codelab.md)  | |
 | 9/15/2017  |	Content Delivery Networks: CloudFront 	|            | |
 | 9/22/2017  |  Compute 1: EC2							|            | |
-| 9/29/2017  |	Compute 2: EC2							| Codelab 3  | |
-| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| Codelab 4  | Project 1 Available |
-| 10/13/2017 |	Load Balancers: ELB + ALB 				| Codelab 5  | |
-| 10/20/2017 |	PaaS: Elastic Beanstalk					| Codelab 6  | |
-| 10/27/2017 |	Functions: Lambda	 					| Codelab 7  | Project 1 Due & Project 2 Available |
-| 11/3/2017  |	*Midterm*	 							|            |  |
-| 11/10/2017 |	APIs: API Gateway	 					| Codelab 8 |   |
-| 11/17/2017 |	Databases: DynamoDB 					| Codelab 9 | Project 2 Due & Final Project Available |
+| 9/29/2017  |	Compute 2: EC2							| [Codelab 3](lectures/lecture-05/codelab/README.md)  | |
+| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| [Codelab 4](vagrant/codelabs/codelab-04/README.md)  | |
+| 10/13/2017 |	Load Balancers: ALBs 				    | Codelab 5  | |
+| 10/20/2017 |	PaaS: Elastic Beanstalk					| Codelab 6  | Final Project Spec Released |
+| 10/27/2017 |	Functions: Lambda	 					| Codelab 7  | Final Project Proposals Due |
+| 11/3/2017  |	*Midterm*	 							|            | |
+| 11/10/2017 |	APIs: API Gateway	 					| Codelab 8  | |
+| 11/17/2017 |	Databases: DynamoDB 					| Codelab 9  | |
 | 11/24/2017 |	*Thanksgiving Break (Campus Closed)* 	| 			 | |
 | 12/1/2017  |	Containers: ECS					 		| Codelab 10 | |
 | 12/8/2017  |  Cloud Security				   			| Codelab 11 | |
-| 12/13/2017 |	*No Class*  						    |            | Final Project Due |
-| 12/14/2017 |	*No Class*  						    |            | Final Project Video Demos Due |
+| 12/18/2017 |	*No Class*  						    |            | Final Project Due |
+| 12/19/2017 |	*No Class*  						    |            | Final Project Video Demos Due |
 
 Learn more about these services in [plain english](https://www.expeditedssl.com/aws-in-plain-english) or from [AWS](https://www.amazonaws.cn/en/products/).
 
-## Projects
-
-- Project 1: TBD (S3, CloudFront, EC2)
-- Project 2: TBD (LB, EC2, SQS)
-- Final Project
-
 ## Final Project
 
-The final project will be an opportunity to apply all of the knowledge that you have gained into an application that you will build from the ground up. The grading scheme for the final project is TBD, but it will factor in creativity and will require the use of at least three of the major services covered in lecture, including at least one that was not used in a project. Students are welcome to (but not required to) incorporate other AWS services that weren't covered in this course.
+The final project will be an opportunity to apply all of the knowledge that you have gained into an application that you will build from the ground up. The grading scheme for the final project is TBD, but it will factor in creativity and will require the use of at least three of the major services covered in lecture, including at least one that we did not cover. Students are welcome to (but not required to) incorporate other AWS services that weren't covered in this course.
 
 Students will be required to record and submit a 2-5 minute video detailing how their project works. More information on the structure of the demo video will be released with the final project's spec. The demo will be due at 11:59:59 PM the day after the final project is due.
 
@@ -89,8 +83,7 @@ Students may also receive access to further resources via [AWS Educate](https://
 
 | % Total | Assignment           | Description |
 | ------- | -------------------- | ----------- |
-| 20%     | Programming Projects | Individual projects that will involve working with AWS services. |
-| 20%     | Codelabs             | Graded for completion |
+| 40%     | Codelabs             | Graded for completion |
 | 10%     | In-class worksheets  | Graded for completion (1 can be dropped) |
 | 20%     | Midterm              | The examination will focus on theoretical concepts. |
 | 30%     | Final Project + Demo | A free-form final project with a video demo. |
@@ -101,15 +94,16 @@ Students may also receive access to further resources via [AWS Educate](https://
 
 | Instructor | Hours               | Location |
 | ---------- | ------------------- | -------- |
-| Colin King | Tuesdays 4-5PM, Fridays 2-3PM, or [by appt](mailto:colink@umd.edu).   | AVW 4101      | 
+| Colin King | Tuesdays 4-5PM, Fridays 2-3PM, or [by appt](mailto:colink@umd.edu).   | Tuesdays: Sandbox, Fridays: CMSC 3118      |
+| Andrej Rasevic | [By appt](mailto:arasevic@cs.umd.edu).   | N/A      |
 
-### Project Submission
+### Codelab Submission
 
-Projects must be submitted electronically following the instructions given in each project assignment. Projects may not be submitted by any other means (e.g., please do not email your projects to us). It is your responsibility to test your program and verify that it works properly before submitting. All projects are due at 11:59:59 PM on the day indicated on the schedule above.
+Codelabs must be submitted electronically following the instructions given in each codelab assignment. codelabs may not be submitted by any other means (e.g., please do not email your codelabs to us). It is your responsibility to test your program and verify that it works properly before submitting. All codelabs are due at 11:59:59 PM on the day indicated in the assignment.
 
-Projects may be submitted up to 24 hours late for a 20% penalty. If you submit both on-time and late, your project will receive the maximum of the penalty-adjusted scores. Only the last on-time and last late projects will be graded.
+Codelabs may be submitted up to 24 hours late for a 20% penalty. If you submit both on-time and late, your codelab will receive the maximum of the penalty-adjusted scores. Only the last on-time and last late codelabs will be graded.
 
-Unlike lower-level programming classes, we will not provide you with test cases (e.g., public tests) before projects are due. You will be responsible for developing your own tests and for using appropriate testing techniques. Also, we expect your projects to use proper style and documentation.
+Unlike lower-level programming classes, we will not always provide you with test cases (e.g., public tests) before codelabs are due. You will be responsible for developing your own tests and for using appropriate testing techniques. Also, we expect your codelabs to use proper style and documentation.
 
 ### Grading Fine Print
 
@@ -121,11 +115,9 @@ Any request for reconsideration of any grading on coursework must be submitted w
 
 Up to one in-class worksheet may be dropped, for any reason. If you can document that you were at a hackathon or on-site interview, or had to miss class for any university-approved reason, then notify the course instructor in advance and you will be allowed to turn in the worksheet during the following class.
 
-*Completing the projects is an essential part of the course. Therefore, the course staff reserves the right to fail any student who does not make a good-faith attempt on all course projects.* The requirements for a good-faith attempt will be released with each project.
-
 ### Course Staff Communications
 
-Students can interact with the instructors in two ways: in-person during office hours and online via Piazza. Email should only be used for emergencies and not class related questions (e.g., projects).
+Students can interact with the instructors in two ways: in-person during office hours and online via Piazza. Email should only be used for emergencies and not class related questions (e.g., codelabs).
 
 ### Excused Absence and Academic Accommodations
 See the section titled "Attendance, Absences, or Missed Assignments" available at [Course Related Policies](http://www.ugst.umd.edu/courserelatedpolicies.html).

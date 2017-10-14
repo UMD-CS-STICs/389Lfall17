@@ -17,7 +17,7 @@ Launch an EC2 instance via the AWS GUI:
 - AMI: Ubuntu Server 16.04 LTS 64-bit
 - Instance Type: t2.micro
 - Configuration Details: Use the defaults
-- Storage: Add a 40GiB EBS volume
+- Storage: **Add a 30GiB EBS volume**
 - Tags: None
 - Security Group: See below
 - Review: Launch
@@ -96,8 +96,8 @@ We can mount the root volume again, to look at its contents:
 
 ```
 ec2 ~$ mkdir ec2-volume
-ec2 ~$ sudo chown ubuntu ec2-volume
 ec2 ~$ sudo mount /dev/xvda1 ~/ec2-volume
+ec2 ~$ sudo chown ubuntu ec2-volume
 ec2 ~$ ls ec2-volume
 bin   dev  home        lib    lost+found  mnt  proc  run   snap  sys  usr  vmlinuz
 boot  etc  initrd.img  lib64  media       opt  root  sbin  srv   tmp  var
@@ -149,7 +149,8 @@ ec2 ~$ sudo file -s /dev/xvdb
 Now, if we mount this volume we will be able to read and write into it:
 
 ```
-ec2 ~$ sudo mount /dev/xvdb 
+ec2 ~$ sudo mount /dev/xvdb ~/ec2-volume
+ec2 ~$ sudo chown ubuntu ec2-volume
 ec2 ~$ ls ec2-volume/
 lost+found
 ec2 ~$ echo "Hello World! From CMSC389L" > ec2-volume/hello.txt

@@ -1,6 +1,6 @@
 # Vagrant Boxes
 
-In this class, we will use Vagrant to manage a virtual environment in which we will work on codelabs and projects. This gives us a recreatable environment running the same OS (Ubuntu 16.04) as that which we will use on EC2. It also creates an environment that is set
+In this class, we will use Vagrant to manage a virtual environment in which we will work on codelabs and projects. This gives us a lightweight, reproducible, and portable environment running the same OS (Ubuntu 16.04) as that which we will use on EC2.
 
 The folder `vagrant` in the root directory of this repo contains all codelabs, projects and Vagrant-related configuration.
 
