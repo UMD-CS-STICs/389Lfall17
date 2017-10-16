@@ -2,6 +2,11 @@
 
 ### Changelog
 
+###### October 16th, 2017
+
+- Added `requirements.txt` file.
+- Clarified contents of submission zip file.
+
 ###### October 11th, 2017
 
 - Released Codelab 4 🎉.
@@ -83,6 +88,16 @@ codelabs/codelab-04/ $ tree
 ```
 
 You are given a significant amount of boilerplate to handle most of the non-SQS portions of this service.
+
+You will need to install a few Python dependencies:
+
+```
+vagrant$ pip install -r requirements.txt
+```
+
+This will install all of the Python dependencies listed in the `requirements.txt` file in the `codelab-04` directory.
+
+If you add any dependencies, make sure to run `python freeze > requirements.txt` and submit the new requirements file.
 
 ##### Setting up the Environment (`setup.py`)
 
@@ -233,4 +248,4 @@ Note that I will change the S3 bucket names in `config.py` / `scripts/ec2_setup.
 
 #### Submission
 
-Submit a zipped version of the `codelab-04` folder containing at least all of the `.py` and `.sh` scripts. Turn in this zip file to the CS submit server.
+Submit a zipped version of the `codelab-04` folder containing all files. Turn in this zip file to the CS submit server.
