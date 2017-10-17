@@ -1,3 +1,4 @@
+#!/bin/bash
 # Simple script to clear your AWS environment from codelab-04
 
 export UMD_USERNAME='colink'
