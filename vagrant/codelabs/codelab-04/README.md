@@ -4,6 +4,8 @@
 
 ###### October 17th, 2017
 
+- Extended the deadline to Friday.
+
 - Added notes about image.py
 - Fixed SSH from Windows hosts
 - Fixed a few typos in the assignment
@@ -21,7 +23,7 @@ You may want to run a `git pull` to pull in these changes.
 
 ### Due Date
 
-This codelab is due on *Wednesday, October 18th at 11:59:59PM*.
+This codelab is due on *Friday, October 20th at 11:59:59PM*.
 
 ### Introduction
 
