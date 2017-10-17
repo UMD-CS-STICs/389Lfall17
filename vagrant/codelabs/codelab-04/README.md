@@ -112,6 +112,7 @@ If you add any dependencies, make sure to run `python freeze > requirements.txt`
 This service will use boto3 and Python to automatically configure its environment. All of this setup is done in `setup.py`, though all of the edits that you need to make are in `utils.py`. As an overview, it will do the following things:
 
 - Create an SQS queue with a dead-letter queue to catch any thumbnail requests that do not get processed properly. (`--queue`)
+	- You'll need to attach a [RedrivePolicy](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) to the main queue which contains the ARN of the Dead-Letter queue.
 - Create two S3 buckets: (`--buckets`)
 	- One to host the generated thumbnails.
 	- And another to transfer your Python code onto an EC2 instance.
