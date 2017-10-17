@@ -63,4 +63,4 @@ if __name__ == '__main__':
     local_originals_dir = join(args.tmp, 'originals')
     local_thumbnails_dir = join(args.tmp, 'thumbnails')
 
-    run(local_originals_dir, local_originals_dir)
+    run(local_originals_dir, local_thumbnails_dir)
