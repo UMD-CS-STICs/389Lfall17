@@ -107,7 +107,19 @@ vagrant$ pip install -r requirements.txt
 
 This will install all of the Python dependencies listed in the `requirements.txt` file in the `codelab-04` directory.
 
-If you add any dependencies, make sure to run `python freeze > requirements.txt` and submit the new requirements file.
+If you add any dependencies, make sure to run `python freeze > requirements.txt` and submit the new requirements file. Make sure to add these extra dependencies to the EC2 setup script.
+
+##### Implementation Recommendations
+
+Here is how I would recommend that you complete this codelab:
+
+1. Start by completing `setup.py` to get the SQS queues set up. You can use the AWS CLI or the Management Console to double-check that everything is created correctly. Test out the DLQ and make sure that messages end up in it after not being deleted after a certain number of receives.
+
+2. Then, get `upload.py` working. You can double-check this in the Management Console, too.
+
+3. Next, get `image.py` working locally. Use `upload.py` to submit thumbnailing requests.
+
+4. Finally, test everything out end-to-end. Remember that you can SSH onto the EC2 instance to look at the `cloud-init-output.log` log file to make sure that your code is executing correctly on the EC2 instance.
 
 ##### Setting up the Environment (`setup.py` / `utils.py`)
 
@@ -225,18 +237,6 @@ Here's is specifically what you need to implement to get this service working:
 	- Download the image from S3 that is pointed to by the SQS message
 	- Generate a thumbnail with `generate_thumbnail`
 	- Upload the thumbnail into S3 with a public-read ACL and correct Content-Type
-
-##### Implementation Recommendations
-
-Here is how I would recommend that you complete this codelab:
-
-1. Start by completing `setup.py` to get the SQS queues set up. You can use the AWS CLI or the Management Console to double-check that everything is created correctly. Test out the DLQ and make sure that messages end up in it after not being deleted after a certain number of receives.
-
-2. Then, get `upload.py` working. You can double-check this in the Management Console, too.
-
-3. Next, get `image.py` working locally. Use `upload.py` to submit thumbnailing requests.
-
-4. Finally, test everything out end-to-end. Remember that you can SSH onto the EC2 instance to look at the `cloud-init-output.log` log file to make sure that your code is executing correctly on the EC2 instance.
 
 #### Testing
 

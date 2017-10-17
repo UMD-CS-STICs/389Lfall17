@@ -5,7 +5,6 @@ from os.path import isfile, isdir, join
 import json
 
 from config import SQS_QUEUE_NAME
-from utils import send_msg
 
 sqs = boto3.resource('sqs')
 sqs_client = boto3.client('sqs')
