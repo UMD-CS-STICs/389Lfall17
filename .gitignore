@@ -25,6 +25,8 @@ aws.credentials
 *.pem
 
 vagrant/tmp
-
-vagrant/**/tmp
+vagrant/codelabs/codelab-04/tmp/**/*.py
+vagrant/codelabs/codelab-04/tmp/**/*.jpg
 vagrant/codelabs/codelab-04/images
+
+*.log

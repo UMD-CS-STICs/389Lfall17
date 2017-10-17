@@ -6,7 +6,7 @@ import time
 from os.path import join
 
 from config import *
-from utils import initialize_queue, initialize_bucket, upload_s3_file, initialize_instance_profile, initialize_security_group, initilize_server
+from utils import initialize_queue, initialize_bucket, upload_s3_file, initialize_instance_profile, initialize_ssh_security_group, initilize_server
 
 
 def setup(args):

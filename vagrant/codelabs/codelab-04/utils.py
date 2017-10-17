@@ -3,7 +3,7 @@ import boto3
 import json
 import time
 
-from os.path import basename
+from os.path import basename, join
 
 from config import *
 

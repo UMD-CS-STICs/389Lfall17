@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   config.vm.synced_folder "codelabs", "/home/ubuntu/codelabs"
-  config.vm.synced_folder "keys", "/home/ubuntu/keys"
+  config.vm.synced_folder "keys", "/home/ubuntu/keys", mount_options: ["dmode=755,fmode=400"]
   config.vm.synced_folder "final-project", "/home/ubuntu/final-project"
 
   # Provider-specific configuration so you can fine-tune various

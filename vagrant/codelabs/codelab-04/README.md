@@ -2,6 +2,14 @@
 
 ### Changelog
 
+###### October 17th, 2017
+
+- Added notes about image.py
+- Fixed SSH from Windows hosts
+- Fixed a few typos in the assignment
+
+You may want to run a `git pull` to pull in these changes.
+
 ###### October 16th, 2017
 
 - Added `requirements.txt` file.
@@ -156,7 +164,7 @@ vagrant$ ssh -i ~/keys/<keypair name> ubuntu@<ip address>
 
 ##### Image Thumbnailing (`image.py`)
 
-The EC2 instance will run a Python script that will poll the SQS queue to listen for new thumbnail requests. Upon receiving a message, it will download the image from S3 that is referenced by the message into a local directory (`tmp/originals`). Then, it will generate a thumbnail of the specified size using the `generate_thumbnail` function that I've given to you. This function will drop the thumbnail into a local directory (`tmp/thumbnails`). Finally, it will upload this thumbnail into an S3 bucket with a public-read ACL so that they can be accessed by other users.
+The EC2 instance will run a Python script that will poll the SQS queue to listen for new thumbnail requests. Upon receiving a message, it will download the image from S3 that is referenced by the message into a local directory (`tmp/originals`). Then, it will generate a thumbnail of the specified size using the `generate_thumbnail` function that I've given to you. This function will drop the thumbnail into a local directory (`tmp/thumbnails`). Finally, it will upload this thumbnail into a different S3 bucket (`S3_OUTPUT_BUCKET`) with a public-read ACL so that they can be accessed by other users. Upon processing this message, `image.py` should repeat this process by polling for the next message.
 
 Note that just like the previous S3 codelab, you will need to consider the Content-Type of these images. If you do not specify the Content-Type of the image when you upload it to S3, then it will default to `octet-stream`. You can just set it to `image/jpg`.
 
