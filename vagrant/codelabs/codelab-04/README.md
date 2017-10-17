@@ -107,9 +107,9 @@ This will install all of the Python dependencies listed in the `requirements.txt
 
 If you add any dependencies, make sure to run `python freeze > requirements.txt` and submit the new requirements file.
 
-##### Setting up the Environment (`setup.py`)
+##### Setting up the Environment (`setup.py` / `utils.py`)
 
-This service will use boto3 and Python to automatically configure its environment. All of this setup is done in `setup.py`. As an overview, it will do the following things:
+This service will use boto3 and Python to automatically configure its environment. All of this setup is done in `setup.py`, though all of the edits that you need to make are in `utils.py`. As an overview, it will do the following things:
 
 - Create an SQS queue with a dead-letter queue to catch any thumbnail requests that do not get processed properly. (`--queue`)
 - Create two S3 buckets: (`--buckets`)
