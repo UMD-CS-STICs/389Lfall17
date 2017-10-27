@@ -60,6 +60,8 @@
 ### October 27th
 
 * [Functions: Lambda](lectures/lecture-09/README.md)
+* [Feedback](lectures/lecture-09/feedback.md)
+* [Slides](lectures/lecture-09/slides.md)
 <!-- * [Codelab 8](lectures/lecture-09/codelab.md) -->
 
 ### November 10th
