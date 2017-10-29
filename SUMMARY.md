@@ -5,6 +5,10 @@
 * [Syllabus](README.md)
 * [Vagrant Box](vagrant.md)
 
+### Final Project
+
+* [Final Project](vagrant/final-project/README.md)
+
 ### September 1st
 
 * [Introduction](lectures/lecture-01/administrative.md)
@@ -83,10 +87,6 @@
 
 * [Cloud Security](lectures/lecture-13/README.md)
 <!-- * [Codelab 12](lectures/lecture-13/codelab.md) -->
-
-### Final Project
-
-* [Final Project](projects/final-project/README.md)
 
 ### Resources
 

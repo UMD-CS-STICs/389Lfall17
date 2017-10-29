@@ -35,25 +35,23 @@ By the end of the semester, the above diagram will make sense to you and you wil
 
 ## Schedule
 
-| Week       | Topic                                    | Codelab    | Project       |
-| ---------- | ---------------------------------------- | ---------- | ------------- |
-| 9/1/2017   |	Introduction and AWS 101				| [Codelab 1](lectures/lecture-01/codelab.md)  | |
-| 9/8/2017   |	Object Storage: S3 						| [Codelab 2](lectures/lecture-02/codelab.md)  | |
-| 9/15/2017  |	Content Delivery Networks: CloudFront 	|            | |
-| 9/22/2017  |  Compute 1: EC2							|            | |
-| 9/29/2017  |	Compute 2: EC2							| [Codelab 3](lectures/lecture-05/codelab/README.md)  | |
-| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| [Codelab 4](vagrant/codelabs/codelab-04/README.md)  | |
-| 10/13/2017 |	Load Balancers: ALBs 				    | Codelab 5  | |
-| 10/20/2017 |	PaaS: Elastic Beanstalk					| Codelab 6  | Final Project Spec Released |
-| 10/27/2017 |	Functions: Lambda	 					| Codelab 7  | Final Project Proposals Due |
-| 11/3/2017  |	*Midterm*	 							|            | |
-| 11/10/2017 |	APIs: API Gateway	 					| Codelab 8  | |
-| 11/17/2017 |	Databases: DynamoDB 					| Codelab 9  | |
-| 11/24/2017 |	*Thanksgiving Break (Campus Closed)* 	| 			 | |
-| 12/1/2017  |	Containers: ECS					 		| Codelab 10 | |
-| 12/8/2017  |  Cloud Security				   			| Codelab 11 | |
-| 12/18/2017 |	*No Class*  						    |            | Final Project Due |
-| 12/19/2017 |	*No Class*  						    |            | Final Project Video Demos Due |
+| Week       | Topic                                    | Codelab    |
+| ---------- | ---------------------------------------- | ---------- |
+| 9/1/2017   |	Introduction and AWS 101				| [Codelab 1](lectures/lecture-01/codelab.md)  |
+| 9/8/2017   |	Object Storage: S3 						| [Codelab 2](lectures/lecture-02/codelab.md)  |
+| 9/15/2017  |	Content Delivery Networks: CloudFront 	|            |
+| 9/22/2017  |  Compute 1: EC2							|            |
+| 9/29/2017  |	Compute 2: EC2							| [Codelab 3](lectures/lecture-05/codelab/README.md)  |
+| 10/6/2017  | 	Now You're Thinking w/ Queues: SQS		| [Codelab 4](vagrant/codelabs/codelab-04/README.md)  |
+| 10/13/2017 |	Load Balancers: ALBs 				    | Codelab 5  |
+| 10/20/2017 |	(Class Canceled)					    |            |
+| 10/27/2017 |	FaaS: Lambda	 					    | Codelab 6  |
+| 11/3/2017  |	APIs: API Gateway	 				    | Codelab 7  |
+| 11/10/2017 |	Databases: DynamoDB	 					| Codelab 8  |
+| 11/17/2017 |	Microservices: ECS 					    | Codelab 9  |
+| 11/24/2017 |	*Thanksgiving Break (Campus Closed)* 	| 			 |
+| 12/1/2017  |  Search: Elasticsearch Service		    | Codelab 10 |
+| 12/8/2017  |  Infrastructure as Code: CloudFormation + Terraform | Codelab 11 | 
 
 Learn more about these services in [plain english](https://www.expeditedssl.com/aws-in-plain-english) or from [AWS](https://www.amazonaws.cn/en/products/).
 
