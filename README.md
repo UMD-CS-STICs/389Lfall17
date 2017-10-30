@@ -61,10 +61,6 @@ The final project will be an opportunity to apply all of the knowledge that you 
 
 Students will be required to record and submit a 2-5 minute video detailing how their project works. More information on the structure of the demo video will be released with the final project's spec. The demo will be due at 11:59:59 PM the day after the final project is due.
 
-## Midterm
-
-There will be one exam in this class, a midterm. It will focus on the concepts taught in class and covered on the in-class worksheets.
-
 ## Codelabs
 
 Students will receive a codelab each week at the end of class that will be due at 11:59:59PM the day before class the following week. Codelabs can be submitted on [submit.cs.umd.edu](http://submit.cs.umd.edu).
@@ -82,9 +78,8 @@ Students may also receive access to further resources via [AWS Educate](https://
 | % Total | Assignment           | Description |
 | ------- | -------------------- | ----------- |
 | 40%     | Codelabs             | Graded for completion |
-| 10%     | In-class worksheets  | Graded for completion (1 can be dropped) |
-| 20%     | Midterm              | The examination will focus on theoretical concepts. |
-| 30%     | Final Project + Demo | A free-form final project with a video demo. |
+| 20%     | In-class worksheets  | Graded for completion (1 can be dropped) |
+| 40%     | Final Project + Demo | A free-form final project with a video demo. |
 
 ## Administrivia
 
