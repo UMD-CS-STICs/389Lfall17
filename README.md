@@ -69,9 +69,7 @@ Codelabs are modeled off of Google's codelabs. They are guided, hands-on coding 
 
 ## Computing Resources
 
-Students will have access to AWS resources via the [AWS Free Tier](https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/), which should be more than enough to cover all of the programming assignments in this course. Students may need to create a new AWS account if they have already used their credit.
-
-Students may also receive access to further resources via [AWS Educate](https://aws.amazon.com/education/awseducate/). More information will be released in the fall.
+Students will have access to AWS resources via the [AWS Free Tier](https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/), which should be more than enough to cover all of the programming assignments in this course. Students may need to create a new AWS account if they have already used their credit. Students will also have access to AWS Educate.
 
 ## Grading
 
