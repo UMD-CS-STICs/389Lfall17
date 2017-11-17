@@ -56,9 +56,10 @@
 * [Slides](lectures/lecture-07/slides.md)
 <!-- * [Codelab 5](lectures/lecture-07/codelab.md) -->
 
-<!-- ### October 20th -->
+### October 20th
 
-<!-- * [PaaS: Elastic Beanstalk](lectures/lecture-08/README.md) -->
+* [(Class Canceled)](lectures/lecture-08/README.md)
+* [Slides](lectures/lecture-08/slides.md)
 <!-- * [Codelab 6](lectures/lecture-08/codelab.md) -->
 
 ### October 27th
