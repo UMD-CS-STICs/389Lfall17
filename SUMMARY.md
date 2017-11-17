@@ -56,9 +56,9 @@
 * [Slides](lectures/lecture-07/slides.md)
 <!-- * [Codelab 5](lectures/lecture-07/codelab.md) -->
 
-### October 20th
+<!-- ### October 20th -->
 
-* [PaaS: Elastic Beanstalk](lectures/lecture-08/README.md)
+<!-- * [PaaS: Elastic Beanstalk](lectures/lecture-08/README.md) -->
 <!-- * [Codelab 6](lectures/lecture-08/codelab.md) -->
 
 ### October 27th
@@ -68,25 +68,36 @@
 * [Slides](lectures/lecture-09/slides.md)
 <!-- * [Codelab 8](lectures/lecture-09/codelab.md) -->
 
-### November 10th
+### November 3rd
 
 * [APIs: API Gateway](lectures/lecture-10/README.md)
+* [Feedback](lectures/lecture-10/feedback.md)
+* [Slides](lectures/lecture-10/slides.md)
 <!-- * [Codelab 9](lectures/lecture-10/codelab.md) -->
+
+### November 10th
+
+* [Databases: DynamoDB](lectures/lecture-11/README.md)
+* [Feedback](lectures/lecture-11/feedback.md)
+* [Slides](lectures/lecture-11/slides.md)
+<!-- * [Codelab 10](lectures/lecture-11/codelab.md) -->
 
 ### November 17th
 
-* [Databases: DynamoDB](lectures/lecture-11/README.md)
-<!-- * [Codelab 10](lectures/lecture-11/codelab.md) -->
-
-### December 1th
-
 * [Containers: ECS](lectures/lecture-12/README.md)
+* [Feedback](lectures/lecture-12/feedback.md)
+* [Slides](lectures/lecture-12/slides.md)
 <!-- * [Codelab 11](lectures/lecture-12/codelab.md) -->
+
+### December 1st
+
+* [Search: Elasticsearch Service](lectures/lecture-13/README.md)
+<!-- * [Codelab 12](lectures/lecture-13/codelab.md) -->
 
 ### December 8th
 
-* [Cloud Security](lectures/lecture-13/README.md)
-<!-- * [Codelab 12](lectures/lecture-13/codelab.md) -->
+* [Infrastructure as Code: CloudFormation + Terraform](lectures/lecture-14/README.md)
+<!-- * [Codelab 13](lectures/lecture-14/codelab.md) -->
 
 ### Resources
 

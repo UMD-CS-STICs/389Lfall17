@@ -31,7 +31,6 @@ By the end of the semester, the above diagram will make sense to you and you wil
 - **Textbook**: None
 - **Course Facilitator**: [Colin King](https://www.linkedin.com/in/colinking1/)
 - **Faculty Advisor**: [Neil Spring](http://www.cs.umd.edu/~nspring/)
-- **Syllabus Last Updated**: September 1, 2017
 
 ## Schedule
 
@@ -57,7 +56,7 @@ Learn more about these services in [plain english](https://www.expeditedssl.com/
 
 ## Final Project
 
-The final project will be an opportunity to apply all of the knowledge that you have gained into an application that you will build from the ground up. The grading scheme for the final project is TBD, but it will factor in creativity and will require the use of at least three of the major services covered in lecture, including at least one that we did not cover. Students are welcome to (but not required to) incorporate other AWS services that weren't covered in this course.
+The final project will be an opportunity to apply all of the knowledge that you have gained into an application that you will build from the ground up. The final project is explained in detail [here](vagrant/final-project/README.md).
 
 Students will be required to record and submit a 2-5 minute video detailing how their project works. More information on the structure of the demo video will be released with the final project's spec. The demo will be due at 11:59:59 PM the day after the final project is due.
 
