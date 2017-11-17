@@ -45,7 +45,7 @@ Here are the major deadlines that you should keep in mind:
 | Deliverable    | Due Date    | Percent             |
 | -------------- | ----------- | ------------------- |
 | Proposal       | 11/5        | 10%                 |
-| Checkpoint     | 11/26       | 5%                  |
+| Checkpoint     | 11/27       | 5%                  |
 | Codebase       | 12/15       | 45% (15% / service) | 
 | Video Demo     | 12/16       | 10%                 |
 | In-person Demo | by 12/19    | 10%                 |
@@ -79,10 +79,12 @@ There is a [sign-up sheet here](https://doodle.com/poll/p8ztcvqdy3ut8etx) to sig
 At roughly the halfway point, you will need to submit a write-up of your progress so far. Be sure to include:
 - An overview of the progress you have made so far.
 - The remaining work to be completed.
-- Any changes you have made to your project since you submitted the proposal slides, including any feedback received that you will incorporate.
-- Problems you have encountered and how you have addressed them.
+- Any changes you have made to your project since you submitted the proposal slides, including any feedback received that you plan to incorporate.
+- Problems that you have encountered so far and how you have addressed them.
 
-To give you some context on the amount of detail I expect, it should be at least a half-page (single-spaced). However, include as much detail as you need!
+To give you some context on the amount of detail I expect, it should be at least a half-page single-spaced. However, include as much detail as you need!
+
+Submit the checkpoint as a PDF over email to [colink@umd.edu](mailto:colink@umd.edu).
 
 #### Codebase
 
@@ -135,7 +137,7 @@ That only scratches the surface of the number of ideas you could run with. Here 
 
 ### Hardware
 
-I have an Amazon Alexa that I'm happy to lend to a team to use. It'll be available on a first-come, first-serve basis, so shoot me an email if you'd like to use it.
+~~I have an Amazon Alexa that I'm happy to lend to a team to use. It'll be available on a first-come, first-serve basis, so shoot me an email if you'd like to use it.~~ Taken!
 
 The [Sandbox](sandbox.cs.umd.edu) (new CS makerspace) has a lot of hardware that can be used for projects, along with guidance and advice! If you haven't worked with hardware before, this is a great opportunity to get started and try it out. If you haven't been to Sandbox before, it is located in CSIC 3107, just on your right before you walk across the bridge to AVW.
 
