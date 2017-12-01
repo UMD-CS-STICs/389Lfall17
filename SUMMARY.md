@@ -92,13 +92,15 @@
 
 ### December 1st
 
-* [Search: Elasticsearch Service](lectures/lecture-13/README.md)
-<!-- * [Codelab 12](lectures/lecture-13/codelab.md) -->
+* [Search: Elasticsearch Service](lectures/lecture-14/slides.md)
+* [Feedback](lectures/lecture-14/feedback.md)
+* [Slides](lectures/lecture-14/slides.md)
+<!-- * [Codelab 12](lectures/lecture-14/codelab.md) -->
 
 ### December 8th
 
-* [Infrastructure as Code: CloudFormation + Terraform](lectures/lecture-14/README.md)
-<!-- * [Codelab 13](lectures/lecture-14/codelab.md) -->
+* [Infrastructure as Code: CloudFormation + Terraform](lectures/lecture-15/README.md)
+<!-- * [Codelab 13](lectures/lecture-15/codelab.md) -->
 
 ### Resources
 
