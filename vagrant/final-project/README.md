@@ -90,18 +90,18 @@ Submit the checkpoint as a PDF over email to [colink@umd.edu](mailto:colink@umd.
 
 This project is meant to be released publicly so that employers can look over what you have built. Therefore, you will need to upload all work to a public GitHub repository. There will be a Piazza post in December where you can submit the link to your GitHub repo.
 
-You will also need to include a README file which includes an overview of the project, links to your other deliverables (including the video demo!), and [the "cmsc389l" tag](https://github.com/topics/cmsc389l).
+You will also need to include a README file with your GitHub repo. It should contain an overview of the project, links to your public YouTube video, your architecture diagram, an overview of your API (if you have one), and [the "cmsc389l" tag](https://github.com/topics/cmsc389l).
 
 #### Video Demo
 
-You will need to record a 2-3 minute video demo of your application.
+You will need to record a video demo of your application (at least 2-3 minutes).
 
 Make sure your demo:
 - Includes a high-level overview of your project
 - Shows your application in action
-- Walks through your application architecture
+- Walks through your application architecture diagram
 - Briefly discusses how you handled scalability concerns
-- A description of the hardest problem you encountered and your solution.
+- A description of the hardest problem you encountered and your solution
 
 To record parts of your demo, you can use the free Google Chrome extension, [Loom](https://www.useloom.com?ref=160191). There are a number of simple video editing tools out there, such as iMovie, that you can use to splice together clips to form your demo. (Have a recommendation for editing software? Post it on Piazza!)
 
@@ -109,11 +109,9 @@ I encourage you to make this video as professional as reasonably possible! After
 
 #### In-person Demo
 
-You will need to give an in-person demo of your project to Andrej and me. We will post a sign-up sheet in December to sign up for a demo slot.
+You will need to give an in-person demo of your project to the course facilitators. The sign-up sheet is available here: https://doodle.com/poll/bmn5fxn6ntt66cq7 You are also welcome to give you demo earlier, if that works better.
 
-We'll try to ask the kind of questions that we would expect employers to ask, if you were to show them your project!
-
-*Note*: Most demos will be given over that weekend or that Monday (12/16-12/18), since I (Colin) will be off-campus on Tuesday, 12/19. You are also welcome to give you demo earlier, if that works better.
+We'll try to ask the kind of questions that we would expect employers to ask, if you were to show them your project.
 
 ### Example Project: Alexa Chess App
 
