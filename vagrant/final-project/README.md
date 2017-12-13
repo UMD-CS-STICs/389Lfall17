@@ -2,6 +2,10 @@
 
 ### Changelog
 
+###### December 13th, 2017
+
+- Update the README description for the codebase.
+
 ###### October 29th, 2017
 
 - Released the initial version of this spec 🎉.
@@ -91,6 +95,8 @@ Submit the checkpoint as a PDF over email to [colink@umd.edu](mailto:colink@umd.
 This project is meant to be released publicly so that employers can look over what you have built. Therefore, you will need to upload all work to a public GitHub repository. There will be a Piazza post in December where you can submit the link to your GitHub repo.
 
 You will also need to include a README file with your GitHub repo. It should contain an overview of the project, links to your public YouTube video, your architecture diagram, an overview of your API (if you have one), and [the "cmsc389l" tag](https://github.com/topics/cmsc389l).
+
+Your repo should contain everything that someone would need to recreate your application. If there are settings you had to configure in the Management Console or elsewhere, add some high-level notes of those steps in your README. For example, if you had write your own IAM policies, or configure the Skills Kit then you should include those JSON files in your repo.
 
 #### Video Demo
 
