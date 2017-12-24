@@ -121,9 +121,7 @@ We'll try to ask the kind of questions that we would expect employers to ask, if
 
 ### Example Project: Alexa Chess App
 
-[![Example Proposal Image](../../media/final-project/proposal.png)](http://slides.com/colinking/example-proposal )
-
-See the example proposal here: http://slides.com/colinking/example-proposal 
+{{ 'http://slides.com/colinking/example-proposal' | iframely }}
 
 #### Other Project Ideas
 

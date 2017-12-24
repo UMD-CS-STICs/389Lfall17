@@ -6,6 +6,8 @@
 
 This course provides a practical and programming-oriented introduction to cloud computing with [Amazon Web Services](https://aws.amazon.com/about-aws/) (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda, and Beanstalk. The course will culminate in a final resume-worthy project that will be built, deployed, and demoed.
 
+[Check out the final projects](/vagrant/final-project/projects.md) that came out of this class!
+
 ## Course Goals
 
 There are two primary goals of this class:

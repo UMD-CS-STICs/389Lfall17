@@ -8,6 +8,7 @@
 ### Final Project
 
 * [Final Project](vagrant/final-project/README.md)
+* [Submissions](vagrant/final-project/projects.md)
 
 ### September 1st
 
