@@ -61,7 +61,7 @@ The two keys components to understand here are how to access different services,
 
 You can see the full list of services from the "Services" dropdown in the top-left corner:
 
-![Services Tab](../../../media/codelabs/codelab-02/services.png)
+![Services Tab](https://github.com/UMD-CS-STICs/389Lfall17/tree/master/media/codelabs/codelab-02/services.png)
 
 You can also use either search bar to locate services.
 
